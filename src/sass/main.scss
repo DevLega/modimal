@@ -7,20 +7,16 @@ body {
   font-family: 'Montserrat';
   margin: 0;
   overflow-x: hidden;
+  background-color: #19191B;
 }
 
 .container {
-  width: 1224px;
+  width: 1200px;
   margin: 0px auto;
 }
 
-@import "../../node_modules/swiper/swiper-bundle.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-.swiper {
-  width: 100%;
-  height: 500px;
-  overflow: visible
-}
 
 //UNTILLS
 @import "./untills/color-styles";
@@ -30,53 +26,8 @@ body {
 //landing page
 @import "./sections/header";
 @import "./sections/hero.scss";
-@import "./sections/best-sellers.scss";
-@import "./sections/collection.scss";
-@import "./sections/modiweek.scss";
-@import "./sections/cotton.scss";
-@import "./sections/follow-us.scss";
 @import "./sections/footer.scss";
 
-//CONTACT-US
-@import "./sections/contact-us/contacts.scss";
-
-//FAQs
-@import "./sections/FAQs/faqs.scss";
-
-//REGISTER
-@import "./sections/register/01.scss";
-@import "./sections/register/03.scss";
-
-//PRODUCT
-@import "./sections/product/product-modiweek.scss";
-@import "./sections/product/shop-all.scss";
-@import "./sections/product/product-item.scss";
-@import "./sections/product/product-desc.scss";
-@import "./sections/product/product-tips.scss";
-
-//SUSTAINABILITY
-@import "./sections/sustainability/sustainability-materials.scss";
-@import "./sections/sustainability/sustainability-mission.scss";
-
-//landing modal windows
-@import "./modal-windows/collection-menu";
-@import "./modal-windows/plus-size";
-@import "./modal-windows/sustanability";
-@import "./modal-windows/new-in-menu";
-@import "./modal-windows/shopping_four.scss";
-
 //PAYMENT
-@import "./sections/payment/payment_cart.scss";
-@import "./sections/payment/payment_error.scss";
-@import "./sections/payment/payment_information.scss";
-@import "./sections/payment/payment_payment.scss";
-@import "./sections/payment/payment_shipping.scss";
-@import "./sections/payment/payment_success.scss";
 
 //ADAPTIVE
-@import "./sections/landing_adaptive.scss";
-@import "./sections/FAQs/faqs_adaptive.scss";
-@import "./sections/footer_adaptive.scss";
-@import "./sections/header_adaptive.scss";
-@import "./sections/contact-us/contact_adaptive.scss";
-@import "./sections/payment/payment_adaptive.scss";
